@@ -1,0 +1,9 @@
+you can uyse only undrscore _ or symbol's 
+firstname (valid)
+_firstnaem (valid)
+1value (invalid)
+value1 (vlalid)
+first name (invalid)
+first_name (valid) also it is called snake case
+First_Name (valid) also it is called camel case
+let keyword
