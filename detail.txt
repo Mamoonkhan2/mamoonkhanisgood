@@ -1,3 +1,5 @@
+var | is use to make a variable can be change (var m = 1)(var m = 3) so you can make a multipler
+     variable on var |
 you can uyse only undrscore _ or symbol's 
 firstname (valid)
 _firstnaem (valid)
@@ -6,4 +8,38 @@ value1 (vlalid)
 first name (invalid)
 first_name (valid) also it is called snake case
 First_Name (valid) also it is called camel case
-let keyword
+let keyword | it is also like  a variable but when you make (let m = 'n') so can 
+  not make another variable on this name like (let m = "m") it will show erorr! |
+
+const | it will be constant and can be change and you can not be change it letter
+string indexing " so like other languages js also start indexing from 0 "[0]
+lengt " it is use to find the length of the string"
+length -1 "it is use to print name from reverse"
+trim()  "it is use to remove the spaces from your contant "
+toUpperCase() == MMMSASMDM
+toLowwerCase() == hasfhakj
+slice()  " it is use for printing indexes from start to end
+            {name.slice(1,3)}"
+typeof "so it is use to find something as type for example
+        console.log(typeof 7) == number "
+age = age + "" --> "the number which is store in age will
+            be change to string "22"
+      {let age = 22 ;
+      // type converstion
+      age = age + "" ;
+      console.log(typeof age ); }
+
+String()    "it is the another methood to change the type of number 
+toString()  to string like String(age) "
+      {let age = 19;
+      age = String(age);
+      age = age.toString();
+      console.log(typeof age);}
+
+Number() "it is use to change the string to number like Number(age)
+          
+          {let age = "19";
+          age = Number(age);
+          console.log(typeof age);  
+}
+

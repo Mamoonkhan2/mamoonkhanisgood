@@ -1,0 +1,5 @@
+(var)   (let)   (console.log())   (firstname.length == length)
+(firstname[0] == string indexing)   (const)   (length -1)
+(trim())   (toUpperCase)   (toLowwerCase)   (slice())
+(typeof)   (age = age + "")   (String())   (toString())
+(Number())
