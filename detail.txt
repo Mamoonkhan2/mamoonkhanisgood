@@ -43,3 +43,59 @@ Number() "it is use to change the string to number like Number(age)
           console.log(typeof age);  
 }
 
+concatination can also be done in js like (m + n) so it wil print the string of those two and give the output 
+templet string "it is use to make easy our work in the coding so we can 
+                concatinate the value easy like we use ${age } it dose not work with ("") it work with (``) "
+undefined "so when we make an empty variable and did'nt acen it the value
+            in result it give us an undefined"
+BigINt "so there is a limite of storing a number in js we can maximame store of to 
+          9007199254740991 to store a value upper than it we use bigint BigINt(23423423) or 234n and also you can not use it with int"
+(== 1|2 ===| != | !==| >= |<=) "1 so it is like the other programing languages but here it don't 
+                           check the datatype it check the given value [2] = so it is the same but it wil check the datatype"
+{ let n = "3";
+let m = 3;
+console.log("this is == not for datatype only in js " +n == m);
+console.log("this is === for data type " + m === n);
+console.log("this is != not for the " + m != n);
+console.log("this is !== datatype " + m !== n);  }
+
+ternary operator "so the ternary can write the conditional statement in one line we can 
+                  write it easy like (let drink = age >= 18 ? "wine" : "milk";)"
+else if "so it is use as like in python and c and java we will put it after if for multipul 
+          condition "
+while "so it is a while loop use for the contiouse output in js like |
+       i = 0 |while(condition){statement and decrement }|"
+for loop "so it is the for loop and use for the contiouse output in js like 
+           for ( insilisation |condition | decrement){now statement }"
+switch "it is use to track like 
+        switch(variable) {
+            case 1 :
+                      break;
+            case 2 : 
+                      break;
+                      defult:
+                             console.log()
+            }"
+  break "it is use to stop something "
+  contiouse "it is use to skip something"   
+arry `it is use to store the collection of data like arry (let arry = [`mango`,`apple`,`milk`];) 
+      arry[0] it will be the indexing of arry ` 
+Array.isArray "it is use to check that the variable is array or not(Array.isArray(name))"
+array.push "it is use to push something in the end of your arry (name.push)"
+array.pop " it is use to remove from the last also you can add it in the variable "
+Array.unshift "to add in starting and also we can store it in variable and also can run it "
+array.shift  "use to remove from starting we can also store it in the variable "
+      let a = ["mamonkhan","maf","ajf"];
+      console.log(a);
+      let arrypop = a.pop();
+      console.log(a);
+      a.unshift("fjalsj");
+      console.log(a);
+      let ramove_fruit = a.shift();
+      console.log(a);
+concat "so we can add the arr with like let arr1 = ["mamoonkhan","haroon","amin"];
+                                            let arr2 = [].concat(arr1);"
+spread_operater "so we can also make a copy of arr1 in arr2 by spread_operater in js like 
+                  let arr1 = ["mamoonkhan","haroon","amin"];
+                  let arr2 = [...arr1];"
+for of loop " it is use as like for but it will go automitic the length of variable you give like for(let i of ramove_fruit)"
